@@ -9,7 +9,7 @@ import VoltageIndicator from "@/components/effects/VoltageIndicator";
 const badges = [
   { icon: Award, label: "12 Anos de Experiência" },
   { icon: CalendarCheck, label: "Entrega no Prazo" },
-  { icon: Briefcase, label: "500+ Projectos" },
+  { icon: Briefcase, label: "50+ Obras de Referência" },
 ];
 
 interface FinalCTAProps {
@@ -82,10 +82,10 @@ export default function FinalCTA({ onCTAClick }: FinalCTAProps) {
           </Button>
           <a
             href="tel:+244942802955"
-            className="flex items-center gap-3 px-8 py-4 rounded-lg border border-electric-blue-600/40 text-electric-white/70 hover:text-electric-white hover:border-electric-cyan transition-all duration-300"
+            className="flex items-center gap-3 px-6 py-4 rounded-lg border border-electric-blue-600/40 text-electric-white/70 hover:text-electric-white hover:border-electric-cyan transition-all duration-300"
           >
-            <PhoneCall size={18} className="text-electric-cyan" />
-            <span className="font-montserrat text-lg">+244 942 802 955</span>
+            <PhoneCall size={18} className="text-electric-cyan shrink-0" />
+            <span className="font-montserrat text-base sm:text-lg">+244 942 802 955</span>
           </a>
         </motion.div>
 

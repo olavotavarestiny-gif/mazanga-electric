@@ -48,7 +48,7 @@ export default function Navbar({ onCTAClick }: NavbarProps) {
               width={240}
               height={72}
               priority
-              className="h-20 w-auto object-contain"
+              className="h-12 md:h-16 w-auto object-contain"
               style={{ filter: "invert(1)" }}
             />
           </div>

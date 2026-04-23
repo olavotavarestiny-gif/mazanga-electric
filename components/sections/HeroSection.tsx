@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle, Users, Briefcase, Clock } from "lucide-react";
+import { CheckCircle, Shield, Briefcase, Clock } from "lucide-react";
 import dynamic from "next/dynamic";
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations";
 import { AnimatedNumber } from "@/components/effects/VoltageIndicator";
@@ -10,9 +10,9 @@ import Button from "@/components/ui/Button";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const stats = [
-  { icon: Briefcase, value: 500, suffix: "+", label: "Projetos Concluídos" },
-  { icon: Users, value: 1200, suffix: "+", label: "Clientes Satisfeitos" },
-  { icon: Clock, value: 12, suffix: " Anos", label: "de Experiência" },
+  { icon: Clock, value: 12, suffix: "+", label: "Anos de Experiência" },
+  { icon: Briefcase, value: 50, suffix: "+", label: "Obras de Alto Padrão" },
+  { icon: Shield, value: 24, suffix: "h", label: "Suporte de Emergência" },
 ];
 
 interface HeroSectionProps {
@@ -22,7 +22,7 @@ interface HeroSectionProps {
 export default function HeroSection({ onCTAClick }: HeroSectionProps) {
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center pt-20 pb-10 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col justify-center pt-20 md:pt-24 pb-10 overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-electric-blue-900/30 via-electric-black to-electric-black pointer-events-none" />
 
