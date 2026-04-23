@@ -99,8 +99,8 @@ export default function TechnicalFooter() {
               </li>
               <li className="flex items-center gap-2 text-electric-white/40 text-sm">
                 <Phone size={15} className="text-electric-cyan shrink-0" />
-                <a href="tel:+244942802955" className="hover:text-electric-cyan transition-colors">
-                  +244 942 802 955
+                <a href="tel:+244943802955" className="hover:text-electric-cyan transition-colors">
+                  +244 943 802 955
                 </a>
               </li>
               <li className="flex items-center gap-2 text-electric-white/40 text-sm">

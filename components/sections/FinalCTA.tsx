@@ -81,11 +81,11 @@ export default function FinalCTA({ onCTAClick }: FinalCTAProps) {
             Falar com Especialista
           </Button>
           <a
-            href="tel:+244942802955"
+            href="tel:+244943802955"
             className="flex items-center gap-3 px-6 py-4 rounded-lg border border-electric-blue-600/40 text-electric-white/70 hover:text-electric-white hover:border-electric-cyan transition-all duration-300"
           >
             <PhoneCall size={18} className="text-electric-cyan shrink-0" />
-            <span className="font-montserrat text-base sm:text-lg">+244 942 802 955</span>
+            <span className="font-montserrat text-base sm:text-lg">+244 943 802 955</span>
           </a>
         </motion.div>
 
