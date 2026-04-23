@@ -20,10 +20,10 @@ const features = [
   },
   {
     icon: Users,
-    title: "Equipe Técnica Certificada",
+    title: "Experiência Internacional",
     stat: "50+",
-    statLabel: "Técnicos",
-    description: "Profissionais com formação especializada em instalações elétricas, automação e sistemas de segurança.",
+    statLabel: "Colaboradores",
+    description: "Equipa com formação e experiência em projectos internacionais, aplicando padrões globais em cada instalação realizada em Angola.",
     size: "medium",
     color: "text-electric-cyan",
     bg: "from-cyan-500/10 to-transparent",
